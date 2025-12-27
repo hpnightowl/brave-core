@@ -297,7 +297,8 @@
     </style>
 
     <style name="BottomSheetActivityTheme" parent="Theme.Chromium.Activity.FakeTranslucent">
-        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
         <item name="android:windowAnimationStyle">@style/BottomSheetAnimation</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
